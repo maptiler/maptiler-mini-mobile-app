@@ -1,0 +1,21 @@
+{
+  "name": "capacitortest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "npx cap init; npm i @capacitor/android @capacitor/ios; npx cap add android; npx cap add ios",
+    "sync": "npx cap sync"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^5.5.1",
+    "@capacitor/core": "^5.5.1",
+    "@capacitor/ios": "^5.5.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.5.1"
+  }
+}
