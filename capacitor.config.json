@@ -1,8 +1,0 @@
-{
-  "appId": "ch.maptiler.sdkpwa",
-  "appName": "MapTiler SDK PWA",
-  "webDir": "src",
-  "server": {
-    "androidScheme": "https"
-  }
-}

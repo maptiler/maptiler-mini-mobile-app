@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">MapTiler SDK PWA</string>
-    <string name="title_activity_main">MapTiler SDK PWA</string>
-    <string name="package_name">ch.maptiler.sdkpwa</string>
-    <string name="custom_url_scheme">ch.maptiler.sdkpwa</string>
-</resources>
