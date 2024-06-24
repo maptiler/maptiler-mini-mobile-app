@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+}
+
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.maplibregl-ctrl-top-right {
+  top: env(safe-area-inset-top);
+}
+
+.maplibregl-ctrl-top-left {
+  top: env(safe-area-inset-top);
+}
+
+.maplibregl-ctrl-bottom-right {
+  bottom: env(safe-area-inset-bottom);
+}
+
+.maplibregl-ctrl-bottom-left {
+  bottom: env(safe-area-inset-bottom);
+}
+
+/* safe pannels on top and bottom*/
+#top-safe {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: env(safe-area-inset-top);
+  z-index: 1;
+  background-color: black;
+  background: linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 95%);
+}
+
+#bottom-safe {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: env(safe-area-inset-bottom);
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 5%, rgba(0,0,0,0.4) 100%);
+}

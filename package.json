@@ -1,0 +1,27 @@
+{
+  "name": "maptiler-mini-mobile-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "init": "npx cap init && npx cap add android && npx cap add ios",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "sync": "npx cap sync",
+    "open-xcode": "open ios/App/App.xcworkspace"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^6.1.0",
+    "@capacitor/cli": "^6.1.0",
+    "@capacitor/ios": "^6.1.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
+  },
+  "dependencies": {
+    "@capacitor/app": "^6.0.0",
+    "@capacitor/core": "^6.1.0",
+    "@capacitor/geolocation": "^6.0.0",
+    "@maptiler/sdk": "^2.0.3"
+  }
+}
