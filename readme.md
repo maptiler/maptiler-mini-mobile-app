@@ -71,9 +71,10 @@ Clone this repo and start to play with it! you will have to follow some steps:
 - rename `.env.sample` to `.env` and replace the value of `MAPTILER_API_KEY` by your actual key
 - modify the content of the file `capacitor.config.ts`
 - App name / logo / bundleID
-- in a term, type `npm run open-xcode` to open the iOS project
+- In terminal run `npx npm run build` && `npx cap sync`
+- To run directly on ios in terminal type `npx cap run ios`, or type `npm run open-xcode` to open the iOS project.
 
-You can then tune a few things. For intance, the target iOS version:
+You can then tune a few things. For instance, the target iOS version:
 ![](./images/ios_version.png)
 
 If you plan to distribute your app, you will also have to deal with **signing** by associating it to a **Team**:
@@ -87,7 +88,7 @@ The project itself reuses the structure of the ViteJS boilerplate, meaning the p
 - in dev/watch mode: `npm run dev`
 - build a production bundle: `npm run build`
 
-After building the project for production, ViteJS lets you use the command `npm run preview` to run the prod locally locally.
+After building the project for production, ViteJS lets you use the command `npm run preview` to run the prod locally.
 
 ### Update the mobile app
 Both mobile projects (XCode workspace and Android Studio Workspace) need to be updated after the web project has been built for production. To make this happen:  
